@@ -1,0 +1,38 @@
+baseURL = "http://sandreas.github.io/"
+languageCode = "en-us"
+title = "sandreas' place"
+theme = "ananke"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = 70
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about me"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about"
+    weight = 80
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/projects"
+    weight = 85
+
+
+  [[menu.main]]
+    name = "disclaimer"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/disclaimer"
+    weight = 90
+
+  [[menu.main]]
+    name = "imprint"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/imprint"
+    weight = 100
